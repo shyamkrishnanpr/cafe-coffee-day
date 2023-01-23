@@ -1,0 +1,61 @@
+.row{
+    margin:0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.carouselEdit{
+    padding: 0px;
+}
+
+
+
+
+.image-inside{
+    position: relative;
+}
+.btnbtn{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    left: 9rem;
+    right: auto;
+}
+.btnbtn:hover{
+    background: grey;
+}
+
+.rowimg{
+    padding: 0px;
+}
+
+
+.image-text{
+    position: relative;
+}
+.socialMedia{
+    font-size: 38px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .table1 td{
+        display: none;
+    }
+}
+.table1{
+    color:gray;
+}
+.table1 td{
+    cursor: pointer;
+}
+.table1 td:hover{
+    color: darkslategray;
+}
